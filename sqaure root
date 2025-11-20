@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+	int n;
+	float sq;
+	printf("Enter the digit\n");
+	scanf("%d",&n);
+	sq=sqrt(n);
+	printf("%.2f is the root",sq);
+	return 0;
+}
